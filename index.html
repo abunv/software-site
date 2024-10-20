@@ -13,19 +13,67 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="header__logo">
-            <img src="./img/Logo.png" alt="logo" class="header__img">
+        <div class="container">
+            <div class="header__logo">
+                <img src="./img/Logo.png" alt="logo" class="header__img">
+            </div>
+            <ul class="header__menu">
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+            <div >
+                <button class="btn login">Login</button>
+                <button class="btn">Sign up</button>
+            </div>      
         </div>
-        <ul class="header__menu">
-            <li><a href="#">Feature</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Pricing</a></li>
-        </ul>
-        <div >
-            <button class="btn login">Login</button>
-            <button class="btn">Sign up</button>
-        </div>
-        
     </header>
+    <!-- /HEADER -->
+
+    <!-- DEVELOP -->
+    <section class="develop">
+        <div class="container">
+            <div class="col-6">
+                <div class="btitle">
+                    Develop Your Life With <span>One Step...</span>
+                </div>
+                <div class="develop__text">
+                    Pushing the possibilities of the internet. Good for <br>
+                    the last software. <span>Make it A software night.</span>
+                </div>
+                <form action="#" class="form">
+                    <input type="mail" placeholder="Enter your email">
+                    <button class="btn develop__btn">Send</button>
+                </form>
+                <div class="develop__card">
+                    <div class="logo"><ion-icon name="logo-google-playstore"></ion-icon class="develop__logo"></div>
+                    <div class="develop__box">
+                        <div class="develop__info">
+                            Android App on
+                        </div>
+                        <div class="develop__store">
+                            GOOGLE PLAY
+                        </div>
+                    </div>
+                    <div class="logo"><ion-icon name="logo-apple-appstore"></ion-icon></div>
+                    <div class="develop__box">
+                        <div class="develop__info">
+                            Android App on
+                        </div>
+                        <div class="develop__store">
+                            GOOGLE PLAY
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./img/laptop.png" alt="laptop">
+                <img src="./img/phone.png" alt="phone" class="phone">
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -44,6 +44,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
+    opacity: 70%;
 }
 
 a {
@@ -63,7 +64,7 @@ ul {
     font-weight: 500;
     line-height: 27px;
     color: #fff;
-    border: 0;
+    border: 1px solid #F44545;
     cursor: pointer;
 }
 
@@ -73,7 +74,7 @@ ul {
 }
 
 /* HEADER */
-.header {
+.header .container {
     display: flex;
     align-items: center;
     padding: 20px 32px;
@@ -98,12 +99,14 @@ ul {
 .header__img {
     display: flex;
     align-items: center;
+    margin-bottom: -25px;
 }
 
 .login {
     margin-right: 10px;
     background-color: #fff;
-    color: #021206;
+    color: #031007;
+    opacity: 70%;
 }
 .login:hover {
     border: 1px solid #ef2d2d;
@@ -112,7 +115,85 @@ ul {
 }
 
 .header__menu a {
-    margin: 0px 15px;
+    margin: 0px 20px;
     opacity: 50%;
+}
+
+.header__menu a:hover {
+    text-decoration: underline;
+}
+
+/* DEVELOP */
+.develop {
+    padding-top:  80px;
+}
+
+.develop .container {
+    display: flex;
+}
+
+.btitle {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 81px;
+}
+
+.btitle span {
+    color: rgb(47, 232, 158);
+}
+
+.develop__text {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33.6px;
+    opacity: 70%;
+}
+
+.develop__text span {
+    font-weight: 500;
+}
+
+.form input {
+    width: 470px;
+    height: 65px;
+    padding: 19px 24px;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 0 0 10px #c1c2c1, 0 0 10px #c1c2c1;
+    margin: 30px 0px;
+}
+
+.develop__btn {
+    margin-left: -113px;
+}
+
+.develop__card {
+    display: flex;
+    align-items: center;
+}
+
+.develop__box {
+    display: block;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.develop__info {
+    font-size: 8px;
+}
+
+.develop__store {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.phone {
+    margin-top: -290px;
 }
 
