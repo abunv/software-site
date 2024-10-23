@@ -60,6 +60,10 @@ ul {
     display: flex;
 }
 
+.justify-end {
+    justify-content: end;
+}
+
 .btn {
     background-color:#F44545;
     padding: 15px 30px;
@@ -180,7 +184,6 @@ ul {
 .develop__box {
     display: flex;
     align-items: center;
-    /* flex: 1; */
     margin-right: 30px;
 }
 
@@ -198,7 +201,6 @@ ul {
 }
 
 .develop__store {
-    /* display: block; */
     font-size: 12px;
     font-weight: 400;
 }
@@ -224,18 +226,22 @@ ul {
     padding: 110px 0px;
 }
 
-.solution__card {
+.solution .container {
     display: flex;
+    align-items: center;
 }
 
 .solution__box  {
-    padding: 30px;
+    padding: 25px;
     box-shadow: 0px 15px 65px 0px #414D4426;
     border-radius: 10px;
     border: 0.5px solid #ccc;
     margin: 10px;
-    /* margin-le: 10px; */
-    /* flex-wrap: wrap; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 270px;
+    height: 270px;
+
 }
 
 .setting {
@@ -267,6 +273,7 @@ ul {
     margin-top: 17.5px;
 }
 
+
 .solution__title {
     font-size: 21px;
     font-weight: 600;
@@ -277,4 +284,34 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
+}
+
+.solution__info {
+    margin-left: 70px;
+}
+
+.solution__info .title {
+    margin-bottom: 20px;
+}
+
+.solution__btn {
+    display: inline-block;
+    background: #000;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.solution__btn:hover {
+    color: rgb(208, 206, 206);
+    background-color: #000;
+}
+
+p span {
+    font-weight: 500;
+    color: #000;
+}
+
+.ask {
+    color: #ef2d2d;
 }
