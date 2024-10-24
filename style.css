@@ -21,6 +21,12 @@ body {
     width: 25%;
     padding: 0px 15px;
 }
+.col-4 {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    width: 33.33%;
+    padding: 0px 15px;
+}
 .col-5 {
     flex-basis: 41.666%;
     max-width: 41.666%;
@@ -66,6 +72,12 @@ ul {
 
 .justify-end {
     justify-content: end;
+    text-decoration: line-through;
+}
+
+.text-ine-through {
+    text-decoration: line-through;
+    opacity: 50%;
 }
 
 .btn {
@@ -400,3 +412,127 @@ p span {
     display: inline-block;
     margin-top: 30px;
 }
+
+/* PRICE */
+.price {
+    padding: 100px 0px;
+}
+
+.price__text {
+    color: #4E5951;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.price__radio {
+    display: flex;
+    align-items: center;
+    /* justify-content: center ; */
+    width: 58px;
+    height: 30px;
+    background-color: #4EDAAC;
+    border-radius: 6px;
+    margin: 0px 15px;
+}
+
+.price__radio span {
+    margin-left: 35px;
+    width: 17px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.price__save {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14.4px;
+}
+
+.price__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__img img {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+}
+
+.price__horizontal-line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6px;
+    border: 11px solid #F6F6F6;
+    border-radius: 37px;
+    margin-top: 10px;
+}
+
+.price__inside-of-line {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 54%;
+    border: 11px solid #4EDAAC;
+    margin-left: -5px;
+    border-radius: 37px;
+    box-shadow: 1px 5px 30px 0px #53D7AB80;
+
+}
+.price__circle {
+    position: absolute;
+    margin-left: 99%;
+    width: 25px;
+    height: 25px;
+    background-color: #4EDAAC;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 1px 5px 30px 0px #53D7AB80;
+}
+
+.price__card {
+    margin: 88px 0px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 361px;
+    padding: 0;
+}
+
+.price__plan {
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    opacity: 50%;
+}
+
+.price__price {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 43px;
+    margin-bottom: 30px;
+}
+
+.price__list li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.price__list li span {
+    
+}
+
