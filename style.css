@@ -60,6 +60,10 @@ ul {
     display: flex;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .justify-end {
     justify-content: end;
 }
@@ -72,13 +76,13 @@ ul {
     font-weight: 500;
     line-height: 27px;
     color: #fff;
-    border: 1px solid #F44545;
     cursor: pointer;
+    border: 0;
 }
 
 .btn:hover {
-    background-color: #ef2d2d;
-    color: #fff;
+    background-color:#F44545;
+    color: rgb(208, 206, 206);
 }
 
 /* HEADER */
@@ -113,13 +117,13 @@ ul {
 .login {
     margin-right: 10px;
     background-color: #fff;
-    color: #031007;
+    color: #000;
     opacity: 70%;
 }
 .login:hover {
-    border: 1px solid #ef2d2d;
     background-color: #fff;
-    color: #021206;
+    color: rgb(28, 28, 28);
+    text-decoration: underline;
 }
 
 .header__menu a {
@@ -205,8 +209,19 @@ ul {
     font-weight: 400;
 }
 
+.develop__right {
+    position: relative;
+}
+
+.laptop {
+    margin-top: -60px;
+    margin-left: -100px;
+}
+
 .phone {
-    margin-top: -290px;
+    position: absolute;
+    top: 150px;
+    right: 470px;
 }
 
 /* SPON */
@@ -314,4 +329,74 @@ p span {
 
 .ask {
     color: #ef2d2d;
+}
+
+/* DISCOVER */
+.discover .container {
+    padding: 100px 0px;
+    display: flex;
+}
+
+.discover__info {
+    margin-left: 70px;
+}
+
+.discover__text {
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+
+.discover__icon {
+    display: flex;
+    align-items: center;
+    background-color: #8BF9D5;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 11px;
+}
+
+.discover__list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    opacity: 70%;
+}
+
+.discover__right {
+    /* margin: 0; */
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+.security .container {
+    display: flex;
+}
+
+.security__img {
+    margin-left: -200px;
+    margin-top: -115px;
+}
+
+.security__info {
+    margin-left: 95px;
+}
+
+.software {
+    background-color: #8ee6c922;
+    height: 527px;
+}
+
+.software .container {
+    display: flex;
+    align-items: center;
+}
+
+.software__img {
+    display: flex;
+    margin-top: -100px;
+}
+
+.software__btn {
+    display: inline-block;
+    margin-top: 30px;
 }
