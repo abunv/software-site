@@ -72,10 +72,9 @@ ul {
 
 .justify-end {
     justify-content: end;
-    text-decoration: line-through;
 }
 
-.text-ine-through {
+.text-line-through {
     text-decoration: line-through;
     opacity: 50%;
 }
@@ -385,7 +384,7 @@ p span {
 }
 
 .security__img {
-    margin-left: -200px;
+    margin-left: -180px;
     margin-top: -115px;
 }
 
@@ -433,7 +432,6 @@ p span {
 .price__radio {
     display: flex;
     align-items: center;
-    /* justify-content: center ; */
     width: 58px;
     height: 30px;
     background-color: #4EDAAC;
@@ -501,8 +499,13 @@ p span {
     box-shadow: 1px 5px 30px 0px #53D7AB80;
 }
 
+.price__box {
+    display: flex;
+}
+
 .price__card {
-    margin: 88px 0px;
+    justify-content: space-between;
+    margin: 88px 15px;
     border: 1px solid #ccc;
     border-radius: 15px;
     width: 361px;
@@ -524,15 +527,77 @@ p span {
     margin-bottom: 30px;
 }
 
-.price__list li {
+.price__list {
+   display: flex;
+   align-items: center;
+   padding: 0px 20px;
+   justify-content: space-between;
+   padding: 20px;
+   border-top: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
+}
+
+.price__icon {
     display: flex;
     align-items: center;
-    padding: 20px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
-.price__list li span {
-    
+.price__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0px;
 }
 
+.price__btn {
+    background-color: #fff;
+    border: 1px solid #F44545;
+    color: #000;
+}
+
+.price__btn:hover {
+    background-color: #fff;
+    color: rgb(47, 47, 47);
+}
+
+/* FOOTER */
+.footer {
+    padding: 50px 0px;
+    background-color: #8ee6c922;
+}
+
+.footer__logo {
+    margin-top: -30px;
+}
+
+.footer__lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list {
+    position: relative;
+}
+
+.footer__text {
+    position: absolute;
+    top:  65px;
+}
+
+.footer__title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-bottom: 16px;
+}
+
+.footer__text {
+    margin-bottom: px;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+
+.footer__list :last-child {
+    margin-top: 10px;
+}
