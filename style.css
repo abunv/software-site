@@ -1032,6 +1032,9 @@ p span {
     .container {
         margin: 0px;
     }
+    .header  {
+        padding: 10px;
+    }
 
     .header__menu {
         display: none;
@@ -1135,21 +1138,57 @@ p span {
         align-items: center;
         justify-content: center;
     }
-    /* .d-flex, .col-6
-    .solution__info {
-        position: relative;
-        height: 200px;
-        width: 100%;
-    } */
-/* 
-    .free__laptop {
-        display: flex;
-        width: 380px;
-        width: 100%;
-        position: relative;
-        top: -330px;
-        z-index: -1;
-    } */
+
+    .solution__btn {
+        margin:  10px 0px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+
+    .discover .container {
+        margin: 0;
+        display: block;
+    }
+
+    .discover__right {
+        margin-top: 0px;
+        margin-left: -90px;
+    }
+
+    .discover__info {
+        margin-left: 25px;
+    }
+ 
+    .discover__right  {
+        display: block;
+    }
+
+    .security .container {
+        display: block;
+        flex-direction: column;
+    }
+
+    .security__right {
+        /* order: 2; */
+        display: none;
+    }
+
+    .security__info {
+        order: 1;
+        /* order: 2; */
+        margin: 20px;
+    }
+
+    .software .container {
+        display: block;
+    }
+
+    .software__img {
+        display: none;
+    }
+
+    /*  */
 
     .price__box {
         flex-direction: column;
@@ -1183,5 +1222,13 @@ p span {
     .price__circle {
         width: 20px;
         height: 20px;
+    }
+
+    .footer .container {
+       
+    }
+
+    .footer__list {
+        display: block;
     }
 }
