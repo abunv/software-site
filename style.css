@@ -796,9 +796,8 @@ p span {
 
     .header__btn {
         padding: 10px;
-        font-size: 18px;
+        font-size: 18px;   
     }
-
     .header__logo {
         display: none;
     }
@@ -1021,6 +1020,7 @@ p span {
     }
 }
 
+
 @media only screen and (max-width: 600px) {
     .col-sm-12 {
         flex-basis: 100%;
@@ -1076,6 +1076,11 @@ p span {
         top: 8px;
     }
 
+    .develop {
+        margin: 0;
+        padding: 40px 0px;
+    }
+
     .develop__right {
        display: none;
     }
@@ -1084,27 +1089,99 @@ p span {
         text-align: center;
     }
 
-    .btitle {
-
-    }
-
     .develop__text br {
         display: none;
     }
 
     .btitle {
-        font-size: 32px;
+        font-size: 35px;
     }
 
     .develop__text {
-        font-size: ;
+
     }
 
+    .form input {
+        width: 80%;
+        height: 45px;
+        margin: 20px auto;
+       
+    }
+
+    .develop__card {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .spon {
+        padding: 20px 0px;
+    }
+
+    .spon__box a img {
+        width: 80px;
+    }
+
+    .solution .container {
+        display: block;
+    }
+
+    .solution__left {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .solution__info a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .d-flex, .col-6
+    .solution__info {
+        position: relative;
+        height: 200px;
+        width: 100%;
+    } */
+/* 
     .free__laptop {
         display: flex;
         width: 380px;
+        width: 100%;
         position: relative;
         top: -330px;
         z-index: -1;
+    } */
+
+    .price__box {
+        flex-direction: column;
+    }
+
+    .display-none {
+        display: flex;
+    }
+
+    .price__card {
+        margin: 0px;
+        margin-top: 0px;
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .price__list {
+        border: 0;
+     }
+
+     .price__horizontal-line{
+        border: 6px solid #F6F6F6;
+    }
+    
+    .price__inside-of-line {
+        width: 60%;
+        border: 6px solid #4EDAAC;
+        margin-left: -5px;
+    }
+    .price__circle {
+        width: 20px;
+        height: 20px;
     }
 }
