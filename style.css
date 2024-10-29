@@ -593,6 +593,7 @@ p span {
 
 .footer__list {
     position: relative;
+    /* display: flex; */
 }
 
 .footer__text {
@@ -613,7 +614,7 @@ p span {
 }
 
 .footer__list :last-child {
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 @media only screen and (max-width:1024px) {
@@ -770,7 +771,7 @@ p span {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 905px) {
     .display-none {
         display: none;
     }
@@ -910,7 +911,7 @@ p span {
     }
 
     .discover__text br {
-        display: none;
+        /* display: none; */
     }
 
     .discover__list li {
@@ -1118,6 +1119,7 @@ p span {
 
     .spon {
         padding: 20px 0px;
+        /* margin: 0; */
     }
 
     .spon__box a img {
@@ -1131,6 +1133,7 @@ p span {
     .solution__left {
         justify-content: center;
         margin-bottom: 30px;
+        /* margin-top: -90px; */
     }
 
     .solution__info a {
@@ -1149,6 +1152,7 @@ p span {
     .discover .container {
         margin: 0;
         display: block;
+        margin-top: -90px;
     }
 
     .discover__right {
@@ -1225,10 +1229,27 @@ p span {
     }
 
     .footer .container {
-       
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .footer__list {
-        display: block;
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__text {
+        display: none;
+    }
+
+    .footer__title {
+        font-size: 18px;
+    }
+
+    .footer__lists {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
     }
 }
